@@ -1,0 +1,143 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/*=============================================
+=            General                         =
+=============================================*/
+h1 {
+	font-family: 'Enriqueta', serif;
+	font-size:50px;
+	line-height:75px;
+	font-weight:700;
+	margin-bottom:25px;
+}
+
+p {
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+	font-size:20px;
+	line-height:30px;
+	margin-bottom:15px;
+}
+
+body {
+	text-align:center;
+	margin: 50px auto;
+
+}
+
+.italic {
+	font-style:italic;
+}
+
+.bold {
+	font-weight:700;
+}
+
+
+
+
+/*=============================================
+=            Button                        =
+=============================================*/
+
+/* CSS3 Button by Chad Mazzola
+https://github.com/ubuwaits/css3-buttons */
+
+button {
+	margin:15px;
+	height:40px;
+}
+
+button::-moz-focus-inner {
+  border: 0; }
+
+button.minimal {
+  background: #e3e3e3;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
+  box-shadow: inset 0 0 1px 1px #f6f6f6;
+  color: #333;
+  font: bold 12px/1 "helvetica neue", helvetica, arial, sans-serif;
+  padding: 8px 0 9px;
+  text-align: center;
+  text-shadow: 0 1px 0 #fff;
+  width: 150px; }
+
+  button.minimal:hover {
+    background: #d9d9d9;
+    -webkit-box-shadow: inset 0 0 1px 1px #eaeaea;
+    box-shadow: inset 0 0 1px 1px #eaeaea;
+    color: #222;
+    cursor: pointer; }
+
+  button.minimal:active {
+    background: #d0d0d0;
+    -webkit-box-shadow: inset 0 0 1px 1px #e3e3e3;
+    box-shadow: inset 0 0 1px 1px #e3e3e3;
+    color: #000; }
+
+/*=============================================
+=            Sketch Area                       =
+=============================================*/
+
+.container-sketch {
+	margin:20px;
+}
+
+.sketchbox {
+	width:20px;
+	height:20px;
+	border: 1px solid black;
+	display:inline-block;
+	vertical-align: top;
+	margin:5px;
+}
+
+/*=============================================
+=            Color Area                      =
+=============================================*/
+
+.colorbox {
+	width:40px;
+	height:40px;
+	border:1px solid black;
+	display:inline-block;
+	vertical-align:top;
+	margin:3px;
+}
+
+.red {
+	background-color:red;
+}
+
+.green {
+	background-color:green;
+}
+
+.blue {
+	background-color:blue;
+}
+
+.yellow {
+	background-color:yellow;
+}
+
+.purple {
+	background-color: purple;
+}
+
+.white {
+	background-color:white;
+}
+
+.container-color .random {
+	background-color:black;
+}
+
+.container-color .random p {
+	font-weight:800;
+	color:white;
+	position:relative;
+	top:3px;
+}
